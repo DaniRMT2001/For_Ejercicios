@@ -43,19 +43,8 @@ function quinto() {
     x = 200
     for (let i = 20; i <= x; i += 5) {
         console.log(i)
+
     }
-}
-
-function sexto() {
-    x = document.getElementById("sexto").value;
-    x = charAT(x.length() - 1)
-    x = parseInt(x)
-    for (let i = 1; i <= x; i++) {
-        console.log(i)
-    }
-
-
-
 }
 
 function septimo() {
@@ -67,14 +56,14 @@ function septimo() {
 
 function octavo() {
     x = [[0, 1], [1, 1], [2, 2], [3, 2], [4, 3], [5, 3], [6, 4], [7, 4], [8, 5], [9, 5]]
-    for(let i in x){
+    for (let i in x) {
         console.log(x[i])
     }
 }
 
-function noveno(){
-    x = [[ 1, 1, 1,], [2, 1, 2], [3, 1,3], [4, 2,1], [5,2,2 ], [6, 2,3], [7,3, 1], [8,3, 2], [9, 3,3]]
-    for(let i in x){
+function noveno() {
+    x = [[1, 1, 1,], [2, 1, 2], [3, 1, 3], [4, 2, 1], [5, 2, 2], [6, 2, 3], [7, 3, 1], [8, 3, 2], [9, 3, 3]]
+    for (let i in x) {
         console.log(x[i])
     }
 }
